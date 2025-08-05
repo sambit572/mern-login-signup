@@ -1,3 +1,5 @@
+const apiBase = 'http://localhost:5000/api';  
+
 const baseUrl = "http://localhost:5000/api/auth";
 
 document.getElementById("signupForm")?.addEventListener("submit", async function (e) {
